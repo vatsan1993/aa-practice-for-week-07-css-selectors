@@ -17,6 +17,11 @@ h1, h2, h3 {
 h1 {
     margin: 0;
     padding: 0;
+
+}
+
+#page-title{
+    font-weight: bold;
 }
 
 h2 {
