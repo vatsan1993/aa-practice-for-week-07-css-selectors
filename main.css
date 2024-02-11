@@ -8,6 +8,9 @@
 
 body > p {
     text-indent: 1em;
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em;
 }
 
 h1, h2, h3 {
@@ -29,7 +32,21 @@ span.pagenum{
     right: 10px;
     font-size: small;
 }
+pre{
+    width: fit-content;
+    margin: auto;
+    margin: 100px;
+}
 
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+pre a:link, pre a:visited, pre a:hover{
+    color:black
+}
 h2 {
     margin-bottom: 1.5em;
     line-height: 1.5em;
